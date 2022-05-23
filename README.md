@@ -1,4 +1,4 @@
-# aws-eks-demo
+# aws-eks-parser
 
 Using python create a yaml parser that can handle: 
 
