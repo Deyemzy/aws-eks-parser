@@ -1,7 +1,7 @@
 import yaml,io,glob,os,sys
 from yaml.loader import SafeLoader
 
-# Open the file and load the file
+#Open the file and load the file
 with io.open("files.txt","r",encoding="utf-8")as f1:
     data=f1.read()
     f1.close()
