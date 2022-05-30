@@ -1,4 +1,3 @@
-
 cluster.yaml
 deployment.yaml
 pvc.yaml
