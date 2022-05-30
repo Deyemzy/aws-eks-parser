@@ -1,3 +1,4 @@
+# import pyyaml module
 import yaml,io,glob,os,sys
 from yaml.loader import SafeLoader
 
@@ -18,6 +19,7 @@ for file in files:
         print(f"{file.split('/')[-1]} is invalid file")
         sys.exit()
 
+#Dumping in the file     
 with io.open("parser_ok.txt","w",encoding="utf-8") as f1:
     f1.write("ok")
     f1.close()
