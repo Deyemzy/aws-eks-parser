@@ -71,7 +71,7 @@ jobs:
         echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
         cat ${HOME}/.kube/config
     - name: Use context
-      run: kubectl config use-context arn:aws:eks:us-east-1:623470070525:cluster/cluster-3
+      run: kubectl config use-context arn:aws:eks:us-east-1:623470070525:cluster/my-cluster
     - name: Creating deployment,service,pvc
       working-directory: ./dir1
       run: |
