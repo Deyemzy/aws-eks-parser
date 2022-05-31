@@ -90,5 +90,3 @@ jobs:
            kubectl get pods
            kubectl get pod -o wide
            ls -l
-          
-     
