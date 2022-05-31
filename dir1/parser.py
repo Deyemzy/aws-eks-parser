@@ -18,8 +18,7 @@ for file in files:
     else:
         print(f"{file.split('/')[-1]} is invalid file")
         sys.exit()
-
-#Dumping in the file     
+    
 with io.open("parser_ok.txt","w",encoding="utf-8") as f1:
     f1.write("ok")
     f1.close()
